@@ -5,15 +5,15 @@ EXE_NAME = "ImageAutoPNG.exe"
 # Shown as publisher in About / ARP — your name or handle is fine (no LLC required)
 PUBLISHER = "heyjmo"
 PRODUCT_NAME = "ImageAutoPNG"
-DESCRIPTION = "Silently converts .webp and .heic images to PNG in the background"
-VERSION = "1.2.0"
-VERSION_TUPLE = (1, 2, 0, 0)
+DESCRIPTION = "Silently converts .webp, .heic, and .avif images to PNG in the background"
+VERSION = "1.3.0"
+VERSION_TUPLE = (1, 3, 0, 0)
 COPYRIGHT = "Copyright © 2026 heyjmo — free software, optional donations welcome"
 
 # --- Links (edit DONATE_URL when you have Ko-fi / PayPal / etc.) ---
 GITHUB_USER = "heyjmo"
 GITHUB_REPO = "ImageAutoPNG"
 GITHUB_URL = f"https://github.com/{GITHUB_USER}/{GITHUB_REPO}"
-WEBSITE_URL = "https://moseleyhost.com/AutoPNG"
+WEBSITE_URL = "https://heyjmo.com/AutoPNG"
 # Optional tips — PayPal.Me (no business required)
 DONATE_URL = "https://paypal.me/heyjmo"

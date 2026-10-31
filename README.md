@@ -1,8 +1,8 @@
 # ImageAutoPNG
 
-Free Windows **system-tray** utility that watches a folder (default: Downloads) and **silently converts** `.webp`, `.heic`, and `.heif` images to `.png`.
+Free Windows **system-tray** utility that watches a folder (default: Downloads) and **silently converts** `.webp`, `.heic`, `.heif`, and `.avif` images to `.png`.
 
-**Website:** [moseleyhost.com/AutoPNG](https://moseleyhost.com/AutoPNG/)  
+**Website:** [heyjmo.com/AutoPNG](https://heyjmo.com/AutoPNG/)  
 **Author:** [heyjmo](https://github.com/heyjmo)  
 **License:** MIT  
 

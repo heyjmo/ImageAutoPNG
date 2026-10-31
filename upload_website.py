@@ -64,7 +64,7 @@ def main() -> int:
     print(f"Uploading {LOCAL_DIR} → {REMOTE_DIR}")
     upload_tree(ftp, LOCAL_DIR, REMOTE_DIR)
     ftp.quit()
-    print("Done. Visit https://moseleyhost.com/AutoPNG/")
+    print("Done. Visit https://heyjmo.com/AutoPNG/")
     return 0
 
 

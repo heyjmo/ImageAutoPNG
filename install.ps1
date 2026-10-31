@@ -73,7 +73,7 @@ $Sc = $Wsh.CreateShortcut($ShortcutPath)
 $Sc.TargetPath = $Pythonw
 $Sc.Arguments = "`"$(Join-Path $InstallDir 'app.py')`""
 $Sc.WorkingDirectory = $InstallDir
-$Sc.Description = "Convert .webp and .heic images to PNG in the background"
+$Sc.Description = "Convert .webp, .heic, and .avif images to PNG in the background"
 $Sc.Save()
 Write-Host "Start Menu shortcut: $ShortcutPath"
 

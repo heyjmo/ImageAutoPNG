@@ -1,4 +1,4 @@
-"""Convert .webp / .heic / .heif images to PNG."""
+"""Convert .webp / .heic / .heif / .avif images to PNG."""
 
 from __future__ import annotations
 
@@ -7,6 +7,15 @@ import time
 from pathlib import Path
 
 from PIL import Image
+
+# Pillow wheels include an AVIF decoder. Importing the plugin registers .avif
+# with Image.open, including inside the frozen installer.
+try:
+    from PIL import AvifImagePlugin  # noqa: F401
+
+    AVIF_AVAILABLE = True
+except ImportError:
+    AVIF_AVAILABLE = False
 
 try:
     from pillow_heif import register_heif_opener
@@ -18,7 +27,7 @@ except ImportError:
 
 from config import log_line
 
-SUPPORTED_EXTENSIONS = {".webp", ".heic", ".heif"}
+SUPPORTED_EXTENSIONS = {".webp", ".heic", ".heif", ".avif"}
 
 # One conversion at a time per file path (scan + watcher can race)
 _locks_guard = threading.Lock()

@@ -6,7 +6,7 @@
 |------|--------|
 | GitHub user | [heyjmo](https://github.com/heyjmo) |
 | Suggested repo | `ImageAutoPNG` → https://github.com/heyjmo/ImageAutoPNG |
-| Website | https://moseleyhost.com/AutoPNG/ |
+| Website | https://heyjmo.com/AutoPNG/ |
 | Publisher name in app | `heyjmo` |
 | License | MIT (`LICENSE`) |
 | Donate link | https://paypal.me/heyjmo |
@@ -52,8 +52,8 @@ python build_exe.py
 
 On GitHub: **Releases → Draft a new release**
 
-- Tag: `v1.2.0`
-- Title: `ImageAutoPNG 1.2.0`
+- Tag: `v1.3.0`
+- Title: `ImageAutoPNG 1.3.0`
 - Upload from `release\`:
   - `ImageAutoPNG-Setup.exe`
   - `ImageAutoPNG.exe` (optional portable)
@@ -65,7 +65,7 @@ The website “Download” button already points at:
 
 ### 4. Website (done if FTP upload succeeded)
 
-Live page: **https://moseleyhost.com/AutoPNG/**
+Live page: **https://heyjmo.com/AutoPNG/**
 
 Local files: `website/AutoPNG/`
 
@@ -89,6 +89,6 @@ Never commit passwords into GitHub.
 
 After rebuild, the app menu includes:
 
-- **Website** → moseleyhost.com/AutoPNG  
+- **Website** → heyjmo.com/AutoPNG  
 - **GitHub** → github.com/heyjmo/ImageAutoPNG  
 - **Donate…** → sponsors link (or your Ko-fi once set)

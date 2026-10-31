@@ -1,6 +1,6 @@
 """
 ImageAutoPNG — system-tray app that watches a folder and converts
-.webp / .heic / .heif files to .png silently and immediately.
+.webp / .heic / .heif / .avif files to .png silently and immediately.
 """
 
 from __future__ import annotations
@@ -285,8 +285,8 @@ class ImageAutoPNG:
                 APP_NAME,
                 f"{APP_NAME}  {VERSION}\n"
                 f"by {PUBLISHER}\n\n"
-                "Free utility — silently converts .webp and .heic/.heif\n"
-                "images to .png in your watched folder.\n\n"
+                "Free utility — silently converts .webp, .heic/.heif,\n"
+                "and .avif images to .png in your watched folder.\n\n"
                 f"Watching:\n{self.watch_folder()}\n\n"
                 f"Website: {WEBSITE_URL}\n"
                 f"Source:  {GITHUB_URL}\n"
@@ -308,7 +308,7 @@ class ImageAutoPNG:
         try:
             from version_info import WEBSITE_URL
         except ImportError:
-            WEBSITE_URL = "https://moseleyhost.com/AutoPNG"
+            WEBSITE_URL = "https://heyjmo.com/AutoPNG"
         self._open_url(WEBSITE_URL)
 
     def open_github(self, icon=None, item=None) -> None:
